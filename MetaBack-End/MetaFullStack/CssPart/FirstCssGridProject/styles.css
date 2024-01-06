@@ -1,0 +1,23 @@
+body{
+	margin: 20px;
+
+}
+.box{
+	background-color: #247;
+	color: #fff;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 150%;
+	justify-items : end;
+	grid-column: 10000px;
+}
+.container{
+	display: grid;
+	grid-template-columns:repeat(2,100px);
+	grid-template-columns:100px 100px 100px;
+	grid-gap: 20px;
+	justify-content: center;
+	grid-auto-flow: dense;
+
+}
